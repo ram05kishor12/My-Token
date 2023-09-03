@@ -7,9 +7,7 @@ MyToken is a simple Ethereum-based token contract written in Solidity. This cont
 - [Description](#description)
 - [Getting Started](#getting-started)
 - [Functions](#functions)
-- [Example Usage](#example-usage)
 - [Authors](#authors)
-- [License](#license)
 
 ## Description
 
@@ -41,15 +39,7 @@ This function allows users to burn a specific amount of their own tokens, reduci
   - `_address`: The address of the user burning the tokens.
   - `value`: The amount of tokens to burn.
 
-## Example Usage
 
-Here's a basic example of how to interact with the MyToken contract:
-
-1. Deploy the contract to an Ethereum network.
-
-2. Mint tokens to a specific address:
-   ```solidity
-   myTokenInstance.mint(userAddress, amountToMint);
 
 ## Author 
 
